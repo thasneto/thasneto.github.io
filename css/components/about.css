@@ -37,13 +37,13 @@
 	flex: 1;
 }
 
-.about .about__right span {
-	margin: 10px;
+.about .about__right div {
+	margin-top: 2rem;
 }
+
 .about .about__right .ler__mais {
-	background-color: var(--white);
-	border: none;
 	text-decoration: underline;
+	cursor: pointer;
 }
 
 .about .about__right .hide {

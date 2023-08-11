@@ -31,6 +31,8 @@
 				<li><a href="#projects">Projetos</a></li>
 				<li><a href="#footer">Contato</a></li>
 			</ul>
+
+			<!-- NavBar Mobile -->
 			<div class="navbar__mobile">
 				<img src="assets/menu.svg" alt="menu" class="burguer">
 				<ul class="mobile__links">
@@ -47,12 +49,14 @@
 	<!-- Header -->
 	<header id="header" class="max-width">
 		
+		<!-- Bio -->
 		<div class="header__left">
 			<h1>Olá! Sou Aminthas Neto, Desenvolvedor Front-End</h1>
 			<p>Diversos projetos desenvolvidos de aplicações web escaláveis e responsivas. Sou apaixonado por tecnologia e criar soluções tecnológicas que resolvem problemas reais e que agregam valor aos usuários.</p>
 			<a href="#about" class="btn btn-primary">Saiba Mais</a>
 		</div>
 		
+		<!-- Imagem Perfil -->
 		<div class="header__right">
 			<div class="header__image">
 				<img src="assets/aminthas.jpg" alt="Aminthas Neto" class="aminthas">
@@ -64,8 +68,10 @@
 
 	<main>
 
-		<!-- Sobre -->
+		<!-- Seção Sobre -->
 		<section id="about" class="about max-width">
+			
+			<!-- Redes e infos -->
 			<div class="about__left">
 				<h2 class="secondary-title">Além do código, quem sou eu?</h2>
 				<p>
@@ -94,6 +100,8 @@
 					</li>
 				</ul>
 			</div>
+
+			<!-- Descrição -->
 			<div class="about__right">
 				<h3 class="tertiary-title mb-m">
 					Desenvolvedor Front-end apaixonado por tecnologia. Soluções criativas para o seu negócio.
@@ -104,25 +112,27 @@
 				<p>
 					Eu amo o desafio de encontrar soluções inovadoras e criativas para problemas complexos, estou sempre buscando novos caminhos e crescer como profissional.
 				</p>
-				<span class="hide">
+				<div class="hide">
 					<p>
 						Eu ja trabalhava com suporte técnico freelancer de computadores desktops e notebooks e com instalação/manutenção de redes domésticas(modem, roteador, repetidor, switchs etc), no entanto sempre tive curiosidade sobre desenvolvimento de softwares e páginas web, então assim que terminei minha primeira graduação pude estudar esta área com mais profundidade.
 					</p>
 					<p>
 						Possuo alguns projetos desenvolvidos que buscam ampliar minhas habilidades com as tecnologias e boas práticas e criar soluções robustas e escaláveis para atender as necessidades dos clientes.
 					</p>
-				</span>
-				<button class="ler__mais">Ler mais &rarr;</button>
+				</div>
+				<span class="ler__mais">Ler mais &rarr;</span>
 			</div>
 		</section>
 
-		<!-- Habilidades -->
+		<!-- Seção Habilidades -->
 		<section id="skills" class="skills">
 			<div class="skills__content max-width">
 				<h2 class="tertiary-title">Ferramentas</h2>
 				<p class="description">
 					Descubra as habilidades e ferramentas que domino e que me permitem criar soluções criativas e funcionais para meus clientes.
 				</p>
+				
+				<!-- Lista de Habilidades -->
 				<ul>
 					<li class="skills__item">
 						<div class="image-container">
@@ -130,7 +140,7 @@
 						</div>
 						<h3>Desenvolvimento Web</h3>
 						<p>
-							HTML5 | CSS3 | JavaScript | React | Git & Github
+							HTML5 | CSS3 | JavaScript | React | NODE | Git & Github | SQL & MYSQL | PHP
 						</p>
 					</li>
 
@@ -163,12 +173,11 @@
 							Experiência em ferramentas de gerenciamento de versão para controle de projetos.
 						</p>
 					</li>
-
 				</ul>
 			</div>
 		</section>
 
-		<!-- Projetos -->
+		<!-- Seção Projetos -->
 		<section id="projects" class="projects max-width">
 			<div class="projects__content">
 				<h2 class="secondary-title">Projetos em Destaque</h2>
@@ -176,9 +185,46 @@
 					De ideias abstratas a projetos bem-sucedidos, aqui estão alguns dos meus trabalhos mais recentes
 				</p>
 			</div>
+
+			<!-- Projetos  -->
 			<ul>
 				<li>
 					<div class="image">
+						<h3 class="tertiary-title">Clique para visitar</h3>
+						<a href="https://thasneto.github.io/agencia-de-viagens/" target="_blank">
+							<img src="assets/agencia-de-viagens.png" alt="agência de viagens">
+						</a>
+					</div>
+					<div class="projects__info">
+						<h3 class="tertiary-title">
+							Agência de Viagens
+						</h3>
+						<p>
+							Landing Page que envia para o back-end as informações preenchidas nos espaços de formulário, usando muitos recursos de formulários e flexbox para estilização e preenchimento. Apresenta design responsivo nos elementos da página.
+						</p>
+						<a href="https://github.com/thasneto/agencia-de-viagens" target="_blank">Leia Mais &rarr;</a>
+					</div>
+				</li>
+				<li class="projects__reversed-list">
+					<div class="image">
+						<h3 class="tertiary-title">Clique para visitar</h3>
+						<a href="https://thasneto.github.io/clinica-medica/" target="_blank">
+							<img src="assets/clinica-medica.png" alt="clínica médica">
+						</a>
+					</div>
+					<div class="projects__info">
+						<h3 class="tertiary-title">
+							Clínica Médica
+						</h3>
+						<p>
+							Uma clínica médica que exibe as especialidades, agenda dos médicos especialistas e exibe um iframe do google maps para mostrar o endereço do local. Apresenta design responsivo na página principal e na página de especialidades.
+						</p>
+						<a href="https://github.com/thasneto/clinica-medica" target="_blank">Leia Mais &rarr;</a>
+					</div>
+				</li>
+				<li>
+					<div class="image">
+						<h3 class="tertiary-title">Clique para visitar</h3>
 						<a href="https://thasneto.github.io/login-darkmode/" target="_blank">
 							<img src="assets/login-darkmode.png" alt="login-darkmode">
 						</a>
@@ -195,6 +241,7 @@
 				</li>
 				<li class="projects__reversed-list">
 					<div class="image">
+						<h3 class="tertiary-title">Clique para visitar</h3>
 						<a href="https://thasneto.github.io/alpha-tech-hospedagem/" target="_blank">
 							<img src="assets/alpha-tech-hospedagem.png" alt="alpha tech hospedagem">
 						</a>
@@ -209,41 +256,10 @@
 						<a href="https://github.com/thasneto/alpha-tech-hospedagem" target="_blank">Leia Mais &rarr;</a>
 					</div>
 				</li>
-				<li>
-					<div class="image">
-						<a href="https://thasneto.github.io/clinica-medica/" target="_blank">
-							<img src="assets/clinica-medica.png" alt="clínica médica">
-						</a>
-					</div>
-					<div class="projects__info">
-						<h3 class="tertiary-title">
-							Clínica Médica
-						</h3>
-						<p>
-							Uma clínica médica que exibe as especialidades, agenda dos médicos especialistas e exibe um iframe do google maps para mostrar o endereço do local. Apresenta design responsivo na página principal e na página de especialidades.
-						</p>
-						<a href="https://github.com/thasneto/clinica-medica" target="_blank">Leia Mais &rarr;</a>
-					</div>
-				</li>
-				<li class="projects__reversed-list">
-					<div class="image">
-						<a href="https://thasneto.github.io/agencia-de-viagens/" target="_blank">
-							<img src="assets/agencia-de-viagens.png" alt="agência de viagens">
-						</a>
-					</div>
-					<div class="projects__info">
-						<h3 class="tertiary-title">
-							Agência de Viagens
-						</h3>
-						<p>
-							Landing Page que envia para o back-end as informações preenchidas nos espaços de formulário, usando muitos recursos de formulários e flexbox para estilização e preenchimento. Apresenta design responsivo nos elementos da página.
-						</p>
-						<a href="https://github.com/thasneto/agencia-de-viagens" target="_blank">Leia Mais &rarr;</a>
-					</div>
-				</li>
+				
+				
 			</ul>
 		</section>
-
 	</main>
 
 	<!-- Rodapé -->
@@ -255,7 +271,7 @@
 			</p>
 			<div class="footer__contact mb-m">
 				<span class="mb-m">thas.neto@gmail.com</span>
-				<a href="tel:5521973929982"><span>(21) 97392-9982</span></a>
+				<a href="tel:21973929982"><span>(21) 97392-9982</span></a>
 			</div>
 			<ul class="mb-l">
 				<li>
@@ -279,6 +295,8 @@
 					</a>
 				</li>
 			</ul>
+
+
 			<p class="footer__copyright">
 				© 2023 Aminthas Neto. Todos os direitos Reservados.
 			</p>
@@ -287,6 +305,5 @@
 	
 	<!-- Script -->
 	<script src="script/index.js"></script>
-
 </body>
 </html>
