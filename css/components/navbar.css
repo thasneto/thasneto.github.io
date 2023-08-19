@@ -25,12 +25,16 @@
 	display: inline-block;
 }
 
+.navbar .navbar__content .navbar__links li a:hover {
+	border-bottom: 3px solid black;
+}
+
 .navbar .navbar__content .navbar__links li:not(:last-of-type) {
 	margin-right: 2rem;
 }
 
 .navbar .navbar__content .navbar__links a {
-	padding: 1rem;
+	padding-bottom: 0.3rem;
 	display: inline-block;
 }
 
