@@ -19,7 +19,7 @@ window.addEventListener("scroll", function() {
 
 hideBtn.addEventListener("click", function() {
 
-	(hidden.classList.contains("hide")) ? hidden.classList.remove("hide") : hidden.classList.add("hide");
-	(hidden.classList.contains("hide")) ? hideBtn.innerHTML = "Ler Mais" : hideBtn.innerHTML = "Ler Menos"
+	hidden.classList.toggle("hide");
+	(hidden.classList.contains("hide")) ? hideBtn.innerHTML = "Ler Mais &rarr;" : hideBtn.innerHTML = "Ler Menos"
 
 })

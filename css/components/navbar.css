@@ -18,7 +18,6 @@
 	font-size: 30px;
 	font-weight: bold;
 	color: var(--primary-color);
-
 }
 
 .navbar .navbar__content .navbar__links li {
@@ -42,12 +41,12 @@
 	color: var(--tertiary-color);
 }
 
-.navbar.active {
-	box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
-}
-
 .navbar .navbar__content .navbar__mobile, .navbar .navbar__content .navbar__mobile .mobile__links {
 	display: none;
+}
+
+.navbar.active {
+	box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 @media only screen and (max-width: 768px) {
